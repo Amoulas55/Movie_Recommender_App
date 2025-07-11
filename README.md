@@ -1,3 +1,6 @@
+# 🎬 Movie Recommender System (MLP + Streamlit)
+
+This project is a movie recommender system built using a Multi-Layer Perceptron (MLP) trained on the MovieLens 20M dataset. The app is deployed using **Streamlit**, providing personalized movie suggestions based on user input, genre filters, and decade preferences.
 
 ---
 
