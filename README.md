@@ -94,8 +94,13 @@ You do not need to include them in the repo.
 This project is licensed under the MIT License — see the LICENSE file for details.
 
 ## 🤝 Acknowledgements
-MovieLens 20M Dataset
 
-Streamlit for the intuitive web UI
+- **MovieLens 20M Dataset**: This work uses data from the [MovieLens](https://grouplens.org/datasets/movielens/) project. If you use this dataset, please cite:
 
-PyTorch for model development
+> F. Maxwell Harper and Joseph A. Konstan. 2015.  
+> *The MovieLens Datasets: History and Context*.  
+> ACM Transactions on Interactive Intelligent Systems (TiiS), 5(4), Article 19 (December 2015).  
+> DOI: [10.1145/2827872](https://doi.org/10.1145/2827872)
+
+- [Streamlit](https://streamlit.io/) for the web-based interface  
+- [PyTorch](https://pytorch.org/) for model training  
