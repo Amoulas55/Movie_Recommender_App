@@ -40,3 +40,65 @@ To avoid uploading large CSV/JSON/model files directly, this project uses `gdown
 
 ```bash
 pip install -r requirements.txt
+
+If you don’t have a requirements.txt, use:
+pip install torch pandas numpy streamlit gdown
+
+
+### 2️⃣ Run the Streamlit App
+bash
+Αντιγραφή
+Επεξεργασία
+streamlit run streamlit_app_movie_gdown.py
+This will:
+
+✅ Automatically download the model (best_mlp_model.pt) and datasets from Google Drive
+
+🌐 Launch a browser tab with the Streamlit interface
+
+3️⃣ Select Your Preferences
+🎥 Choose up to 10 movies you’ve enjoyed
+
+🎯 Optionally filter recommendations by genre and decade
+
+✅ View smart recommendations tailored to your preferences
+
+🎉 Features
+🔍 Uses MLP Embeddings + Cosine Similarity to recommend similar movies
+
+🧠 Streamlit UI with:
+
+🎞️ Movie selection
+
+🧩 Genre and decade filters
+
+🔢 Adjustable number of recommendations
+
+⭐ Popularity-aware scoring to improve result quality
+
+💻 Ready for local use or deployment
+
+📂 Google Drive Files Used
+These large files are hosted remotely and downloaded automatically at runtime:
+
+best_mlp_model.pt
+
+movie2idx_debug.json
+
+user2idx_debug.json
+
+movies.csv
+
+ratings.csv
+
+You do not need to include them in the repo.
+
+📜 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+🤝 Acknowledgements
+MovieLens 20M Dataset
+
+Streamlit for the intuitive web UI
+
+PyTorch for model development
